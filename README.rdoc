@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This DeloitteDigital Logo was made purely with HTML, SCSS (SASS), and Ruby on Rails. 
 
-Things you may want to cover:
+'''html
+<br>
 
-* Ruby version
+My inspiration to design this logo was to hopefully impress my interviewer for the Front End Engineer position at DeloitteDigital :) 
 
-* System dependencies
+You can also find the code on Codepen.io
 
-* Configuration
+<a href="http://codepen.io/houstongolden/pen/OMNWyN">http://codepen.io/houstongolden/pen/OMNWyN</a>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Check out my portfolio of other projects on <a href="http://cloud-media.com">CloudMedia</a> and my own startup <a href="https://hubify.com">Hubify.com</a>
+'''
