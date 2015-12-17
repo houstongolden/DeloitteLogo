@@ -2,14 +2,6 @@
 
 This DeloitteDigital Logo was made purely with HTML, SCSS (SASS), and Ruby on Rails. 
 
-'''html
-<br>
 
 My inspiration to design this logo was to hopefully impress my interviewer for the Front End Engineer position at DeloitteDigital :) 
 
-You can also find the code on Codepen.io
-
-<a href="http://codepen.io/houstongolden/pen/OMNWyN">http://codepen.io/houstongolden/pen/OMNWyN</a>
-
-Check out my portfolio of other projects on <a href="http://cloud-media.com">CloudMedia</a> and my own startup <a href="https://hubify.com">Hubify.com</a>
-'''
