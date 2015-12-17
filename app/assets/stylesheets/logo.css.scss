@@ -1,0 +1,75 @@
+$break-small: 440px;
+$break-mid: 600px;
+$break-large: 1000px;
+
+body {
+    background-color: #000;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    /*padding: 30%;*/
+
+    .deloitte_logo {
+	    font-family: 'Istok Web', sans-serif;
+	    font-weight: bold;
+	    font-size: 6em;
+	    position: absolute;
+	    color: #fff;
+	    transition: all 150ms 150ms;
+	    @media screen and (max-width: $break-mid) {
+	    	font-size: 4em;
+	    	.digital {
+	    		margin-top: -28px;
+    			position: absolute;
+	    	}
+	    }
+	    @media screen and (min-width: $break-large) {
+	    	font-size: 8em;
+	    	line-height: .5em;
+	    }
+    }
+    span > svg {
+	   	vertical-align: middle;
+	    margin-top: 26px;
+	    margin-left: -64px;
+	    transition: all 150ms 150ms;
+	    @media screen and (min-width: $break-large) {
+	    	transform: scale(1.5,1.5);
+	    	margin-top: 35px;
+	    }
+	    @media screen and (max-width: $break-mid) {
+	    	transform: scale(.5,.5);
+	    }
+	    @media screen and (max-width: $break-small) {
+	    	transform: scale(1, 1);
+	    }
+    }
+    .deloitte_letter_logo {
+    	font-family: 'Istok Web', sans-serif;
+	    font-weight: bold;
+	    font-size: 6em;
+	    position: absolute;
+	    color: #fff;
+    }
+	.full_logo {
+		transition: all 150ms 150ms;
+    	@media screen and (max-width: $break-small) {
+    		display: none;
+    	}
+      }
+    .letter_logo {
+    	display: none;
+    	transition: all 150ms 150ms;
+    	@media screen and (max-width: $break-small) {
+    		display: block;
+    	}
+    }
+}
+
+
+.codepen {
+	margin-top: 400px;
+}
+
+
