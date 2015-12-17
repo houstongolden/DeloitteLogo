@@ -8,7 +8,6 @@ body {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
-    /*padding: 30%;*/
 
     .deloitte_logo {
 	    font-family: 'Istok Web', sans-serif;
@@ -16,33 +15,48 @@ body {
 	    font-size: 6em;
 	    position: absolute;
 	    color: #fff;
+	    line-height: .15em;
 	    transition: all 150ms 150ms;
+
+	    @media screen and (max-width: $break-small) {
+	    	.digital {
+	    		margin-top: -24px;
+    			position: absolute;
+	    	}
+	    }
+	    
 	    @media screen and (max-width: $break-mid) {
 	    	font-size: 4em;
+	    	line-height: .4em;
 	    	.digital {
-	    		margin-top: -28px;
+	    		margin-top: -24px;
     			position: absolute;
 	    	}
 	    }
 	    @media screen and (min-width: $break-large) {
 	    	font-size: 8em;
-	    	line-height: .5em;
+	    	line-height: .4em;
 	    }
     }
     span > svg {
 	   	vertical-align: middle;
 	    margin-top: 26px;
-	    margin-left: -64px;
+	    margin-left: -67px;
 	    transition: all 150ms 150ms;
 	    @media screen and (min-width: $break-large) {
 	    	transform: scale(1.5,1.5);
 	    	margin-top: 35px;
+	    	margin-left: -70px;
 	    }
 	    @media screen and (max-width: $break-mid) {
-	    	transform: scale(.5,.5);
+	    	transform: scale(0.6, 0.6);
+		    margin-top: 19px;
+		    margin-left: -61px;
 	    }
 	    @media screen and (max-width: $break-small) {
 	    	transform: scale(1, 1);
+	    	margin-top: 26px;
+	    	margin-left: -70px;
 	    }
     }
     .deloitte_letter_logo {
